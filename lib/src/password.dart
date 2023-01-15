@@ -2,8 +2,7 @@ import 'dart:math';
 
 const String _basic = "qwertzuiopasdfghjklyxcvbnm1234567890";
 const String _special = "qwertzuiopasdfghjklyxcvbnm1234567890_:?!%!@#^&*";
-//TODO: replace with safe generator
-Random rdm = new Random();
+Random rdm = new Random.secure();
 void main() {
   print("Basic password: " + basic(10));
   print("Special password: " + special(10));
