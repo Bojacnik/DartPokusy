@@ -1,8 +1,5 @@
-import 'dart:async';
-import 'dart:io';
-
 import 'package:ahoj/src/getit.dart';
-import 'http/connection_checker.dart';
+import 'connection/connection_checker_abs.dart';
 
 void main() async {
   setup();
@@ -11,6 +8,6 @@ void main() async {
 }
 
 void main2() async {
-  ConnectionChecker cc = ConnectionChecker();
-  cc.start();
+  ConnectionChecker cc = getIt.get as ConnectionChecker;
+  cc.check();
 }
