@@ -1,3 +1,4 @@
+import 'package:ahoj/src/connection/connection_checker.dart';
 import 'package:ahoj/src/getit.dart';
 import 'connection/connection_checker_abs.dart';
 
@@ -8,6 +9,6 @@ void main() async {
 }
 
 void main2() async {
-  ConnectionChecker cc = getIt.get as ConnectionChecker;
-  cc.check();
+  ConnectionChecker cc = getIt.get<ConnectionChecker>();
+  print(await cc.check());
 }
