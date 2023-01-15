@@ -671,3 +671,5 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/dart,darteditor,flutter,visualstudiocode,visualstudio,android,androidstudio
+
+.dart_tool/*
