@@ -1,8 +1,12 @@
-import 'package:ahoj/src/connection/connection_checker.dart';
-import 'package:ahoj/src/connection/connection_checker_abs.dart';
 import 'package:get_it/get_it.dart';
+import 'package:injectable/injectable.dart';
+import 'getit.config.dart';
 
-final getIt = GetIt.instance;
-void setup() {
-  getIt.registerSingleton<ConnectionChecker>(ConnectionCheckerImpl());
-}
+late GetIt getIt;
+
+@InjectableInit(
+  initializerName: 'init', // default
+  preferRelativeImports: true, // default
+  asExtension: false, // default
+)
+Future<void> configureInjection() async => getIt = init(GetIt.instance);

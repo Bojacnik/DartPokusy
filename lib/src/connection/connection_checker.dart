@@ -1,10 +1,12 @@
 import 'dart:io';
 
 import 'package:ahoj/src/connection/connection_checker_abs.dart';
+import 'package:injectable/injectable.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 
 import '../getit.dart';
 
+@Singleton(as: ConnectionChecker)
 class ConnectionCheckerImpl extends ConnectionChecker {
   final InternetConnectionChecker _checker = new InternetConnectionChecker();
 
