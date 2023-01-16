@@ -17,6 +17,7 @@ abstract class Zvire {
 class Jelen extends Zvire {
   Jelen(int arms, int legs, String? sound) : super(arms, legs, sound: sound);
 
+  @factoryMethod
   factory Jelen.normalni() {
     return Jelen(0, 2, "JelenZvuk");
   }
