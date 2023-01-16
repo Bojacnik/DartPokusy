@@ -25,10 +25,6 @@ _i1.GetIt init(
     environmentFilter,
   );
   gh.singleton<_i3.ConnectionChecker>(_i4.ConnectionCheckerImpl());
-  gh.singleton<_i5.Zvire>(_i5.Jelen(
-    gh<int>(),
-    gh<int>(),
-    gh<String>(),
-  ));
+  gh.singleton<_i5.Zvire>(_i5.Jelen.normalni());
   return getIt;
 }
