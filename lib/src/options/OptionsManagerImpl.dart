@@ -1,7 +1,8 @@
 //import 'OptionsManager.dart';
 
+//TODO: parse options as list
 /*
 class OptionsManagerImpl extends OptionsManager {
-  OptionsManagerImpl("TODO: parse options as list") : super(options);
+  OptionsManagerImpl(IMPLEMENT HERE) : super(options);
 }
 */
