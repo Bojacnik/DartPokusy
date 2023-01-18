@@ -14,6 +14,7 @@ dependencies:
   owoify_dart: ^2.0.1
   injectable: ^2.1.0
   get_it: ^7.2.0
+  #TODO: add env
 
 dev_dependencies: 
   build_runner: ^2.3.3
