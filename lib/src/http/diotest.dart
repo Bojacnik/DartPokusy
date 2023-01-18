@@ -30,6 +30,7 @@ void main() async {
     print("Non-cached: " + timer.elapsedMilliseconds.toString() + "ms");
     timer.reset();
     timer.start();
+    // ignore: unused_local_variable
     Response<dynamic> responseCachedHopefully =
         await dio.get("http://www.jakubec.lab.uzlabina.cz");
     timer.stop();
