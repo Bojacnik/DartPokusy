@@ -672,5 +672,5 @@ FodyWeavers.xsd
 
 # End of https://www.toptal.com/developers/gitignore/api/dart,darteditor,flutter,visualstudiocode,visualstudio,android,androidstudio
 
-**/*.g.dart
-**/*.config.dart
+*.g.dart
+*.config.dart
