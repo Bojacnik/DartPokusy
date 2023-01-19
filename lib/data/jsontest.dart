@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:ahoj/src/data/MyModel.dart';
+import 'package:ahoj/data/MyModel.dart';
 
 void main() async {
   var model = MyModel(5, "Pepa z depa");

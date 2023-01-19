@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:ahoj/src/connection/connection_checker_abs.dart';
+import 'package:ahoj/connection/connection_checker_abs.dart';
 import 'package:injectable/injectable.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 

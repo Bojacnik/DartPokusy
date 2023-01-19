@@ -1,4 +1,4 @@
-import 'package:ahoj/src/getit.dart';
+import 'package:ahoj/getit.dart';
 import 'connection/connection_checker_abs.dart';
 
 import 'data/zvire.dart';
