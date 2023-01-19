@@ -8,5 +8,5 @@ abstract class Env {
   static final key = _Env.key;
 
   @EnviedField(varName: 'STRING1')
-  static final STRING1 = _Env.STRING1;
+  static const STRING1 = _Env.STRING1;
 }
